@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <menuitem id="lib_main_menu"
+            web_icon="lib,static/description/icon.pag"
+            name="Library" sequence="300"/>
+
+  <menuitem id="lib_catalog_menu"
+            parent="lib_main_menu"
+            name="Catalog" sequence="100"/>
+
+  <menuitem id="lib_settings_main_menu"
+            parent="lib_main_menu"
+            name="Settings" sequence="9999"/>
+
+</odoo>
